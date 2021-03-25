@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_CustomTabView_TUTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MyTabView(tabIndex: .home)
         }
     }
 }
